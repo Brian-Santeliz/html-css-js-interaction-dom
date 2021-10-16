@@ -1,0 +1,138 @@
+<!DOCTYPE html>     
+<html lang="es">
+   <head>
+      <title>Deco Art | La mejor reposteria</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+      <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png"/>
+      <link rel="stylesheet" href="css/estilos.css">
+      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+   </head>
+   <body>
+      <div id="container-spinner">
+         <div id="carga-inicial"></div>
+      </div>
+      <header>
+         <div class="contenedor">
+            <h1> <i class="fas fa-birthday-cake"></i> Deco Art</h1>
+            <input type="checkbox" id="menu-movil">                         
+            <label  for="menu-movil"><i class="fas fa-bars"></i> </label>      
+            <nav class="menu">                                          
+               <a href="#">Inicio</a>
+               <a href="#nosotros">Nosotros</a>
+               <a href="#categoria">Categorías</a>
+               <a href="#recetas">Recetas</a>
+               <a href="#videos">Video</a>
+            </nav>
+         </div>
+      </header>
+      <main>
+         <section id="hero">
+            <img src="img/hero.jpg">       
+            <div class="contenedor center">
+               <h2>Deco Art</h2>
+               <p class="hero-texto"> Decoraciones & resposteria en el mejor lugar </p>
+               <a href="#nosotros" id="nosotros-boton" class="auto">Conoce más de Nosotros</a>
+            </div>
+         </section>
+         <section id="nosotros" >
+            <div class="inner">
+               <h2 class="titulo-nosotros">Deco Art</h2>
+               <span class="separador"></span>
+               <div class="spinner none" id="spinner-nosotros">
+                  <div class="spinner-dot"></div>
+                  <div class="spinner-dot"></div>
+                  <div class="spinner-dot"></div>
+                  <div class="spinner-dot"></div>
+                  <div class="spinner-dot"></div>
+                  <div class="spinner-dot"></div>
+               </div>
+               <div id="nosotros-texto"></div>
+            </div>
+         </section>
+         <section id="categoria">
+            <h3 class="margin">Categorías más populares en Deco Art</h3>
+            <div class="spinner none" id="spinner-categoria">
+               <div class="spinner-dot"></div>
+               <div class="spinner-dot"></div>
+               <div class="spinner-dot"></div>
+               <div class="spinner-dot"></div>
+               <div class="spinner-dot"></div>
+               <div class="spinner-dot"></div>
+            </div>
+            <div class="contenedor" id="categorias-contenedor">      
+            </div>
+         </section>
+         <section id="recetas">
+         <h3>Recetas disponibles en Deco Art</h3>
+         <div class="spinner none" id="spinner-receta">
+            <div class="spinner-dot"></div>
+            <div class="spinner-dot"></div>
+            <div class="spinner-dot"></div>
+            <div class="spinner-dot"></div>
+            <div class="spinner-dot"></div>
+            <div class="spinner-dot"></div>
+         </div>
+         <div class="contenedor top" id="recetas-contenedor">     
+         </div>
+         <section id="videos">
+            <div class="contenedor-video">
+               <input type="button" class="boton-play" id="boton-video" value="Reproducir"> 
+            </div>
+            <div class="container" id="video-contenedor">
+               <div class="spinner none" id="spinner-video">
+                  <div class="spinner-dot"></div>
+                  <div class="spinner-dot"></div>
+                  <div class="spinner-dot"></div>
+                  <div class="spinner-dot"></div>
+                  <div class="spinner-dot"></div>
+                  <div class="spinner-dot"></div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <section id="newsletter">
+         <p class="titulo">Obten las últimas recetas y consejos para decoración</p>
+         <section class="newsletter-seccion">
+            <div class="spinner none" id="spinner-form">
+               <div class="spinner-dot"></div>
+               <div class="spinner-dot"></div>
+               <div class="spinner-dot"></div>
+               <div class="spinner-dot"></div>
+               <div class="spinner-dot"></div>
+               <div class="spinner-dot"></div>
+            </div>
+            <form id="form-newsletter">
+               <p>Suscribete a nuestra nesletter.</p>
+               <p>
+                  <input type="text" name="email" style="width: 95%; padding: 1px 2px" required placeholder="Ingresa tú correo electronico" id="email-input">
+               </p>
+               <p>
+                  <input type="submit" value="¡Suscribirse!">
+               </p>
+            </form>
+         </section>
+      </section>
+      <footer>
+         <div class="contenedor">
+            <p><strong>Deco Art</strong> &copy; <span id="fecha"></span></p>
+            <div class="social-footer" >
+               <div class="spinner " id="spinner-social">
+                  <div class="spinner-dot"></div>
+                  <div class="spinner-dot"></div>
+                  <div class="spinner-dot"></div>
+                  <div class="spinner-dot"></div>
+                  <div class="spinner-dot"></div>
+                  <div class="spinner-dot"></div>
+               </div>
+               <div id="social">
+               </div>
+            </div>
+         </div>
+      </footer>
+      <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+      <script type="module" src="js/app.js"> </script>  
+   </body>
+</html>
