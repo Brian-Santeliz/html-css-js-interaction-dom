@@ -1,17 +1,17 @@
 {
-  "name": "luiyeli-actividad",
+  "name": "frontend-interaction-js",
   "version": "1.0.0",
-  "description": "",
+  "description": "Web of cakes using HTML and CSS to controller DOM with JS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy:gp-pages": "npx gp-pages -d ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Brian-Santeliz/html-css-js-interaction-dom.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["Javascript", "HTML", "CSS3"],
+  "author": "Brian Santeliz",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Brian-Santeliz/html-css-js-interaction-dom/issues"
