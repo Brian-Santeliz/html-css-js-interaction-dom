@@ -1,0 +1,23 @@
+{
+  "name": "frontend-interaction-js",
+  "version": "1.0.0",
+  "description": "Web of cakes using HTML and CSS to controller DOM with JS",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brian-Santeliz/html-css-js-interaction-dom.git"
+  },
+  "keywords": ["Javascript", "HTML", "CSS3"],
+  "author": "Brian Santeliz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brian-Santeliz/html-css-js-interaction-dom/issues"
+  },
+  "homepage": "https://github.com/Brian-Santeliz/html-css-js-interaction-dom#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}

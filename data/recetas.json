@@ -1,0 +1,28 @@
+{
+    "data":[
+        {
+            "nombre":"Tarta heleada de OREO",
+            "img_url":"tarta-helado.jpg"
+        },
+        {
+            "nombre":"Barritas principe mini galletas",
+            "img_url":"galletas-receta.jpg"
+        },
+        {
+            "nombre":"Pastel completamente de chocolate",
+            "img_url":"tortas-chocolate.jpg"
+        },
+        {
+            "nombre":"Cachos glaseados de azuar y dulce de leche",
+            "img_url":"cachos-glaseados.jpg"
+        },
+        {
+            "nombre":"Galletas rellenas de chocolate y fresa",
+            "img_url":"galletas-rellena.jpg"
+        },
+        {
+            "nombre":"Flan de fresas con gelatina<",
+            "img_url":"flan-geletatina-fresa.jpg"
+        }
+    ]
+}

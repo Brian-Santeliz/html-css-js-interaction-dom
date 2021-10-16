@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "nombre": "Cakes",
+      "img_url": "cakes.jpg"
+    },
+    {
+      "nombre": "Flanes",
+      "img_url": "flanes.jpg"
+    },
+    {
+      "nombre": "Gelatinas",
+      "img_url": "gelatina.jpg"
+    },
+    {
+      "nombre": "Galletas",
+      "img_url": "galleta.jpg"
+    }
+  ]
+}
