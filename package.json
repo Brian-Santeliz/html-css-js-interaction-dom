@@ -4,7 +4,7 @@
   "description": "Web of cakes using HTML and CSS to controller DOM with JS",
   "main": "index.js",
   "scripts": {
-    "deploy:gp-pages": "npx gp-pages -d ."
+    "deploy": "npx gp-pages -d ."
   },
   "repository": {
     "type": "git",
