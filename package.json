@@ -1,0 +1,23 @@
+{
+  "name": "luiyeli-actividad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brian-Santeliz/html-css-js-interaction-dom.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brian-Santeliz/html-css-js-interaction-dom/issues"
+  },
+  "homepage": "https://github.com/Brian-Santeliz/html-css-js-interaction-dom#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
